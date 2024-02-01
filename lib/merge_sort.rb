@@ -8,7 +8,7 @@ def merge(arr)
 	sorted = []
 
 	until left.empty? || right.empty?
-    sorted << (left.first < right.first ? left.shift : right.shift)
+		sorted << (left.first < right.first ? left.shift : right.shift)
 	end
 
 	sorted + left + right
